@@ -19,7 +19,7 @@ If you're using a GPG key that matches your committer identity and your verified
 {% data reusables.gpg.copy-gpg-key-id %}
 4. Enter `gpg --edit-key GPG key ID`, substituting in the GPG key ID you'd like to use. In the following example, the GPG key ID is `3AA5C34371567BD2`:
   ```shell
-  $ gpg --edit-key <em>3AA5C34371567BD2</em>
+  $ gpg --edit-key <em>3DD1C34371567BD2</em>
   ```
 5. Enter `gpg> adduid` to add the user ID details.
   ```shell
@@ -27,9 +27,9 @@ If you're using a GPG key that matches your committer identity and your verified
   ```
 6. Follow the prompts to supply your real name, email address, and any comments. You can modify your entries by choosing `N`, `C`, or `E`. {% data reusables.gpg.private-email %} {% if currentVersion == "free-pro-team@latest" %} For more information, see "[Setting your commit email address](/articles/setting-your-commit-email-address)."{% endif %}
   ```shell
-  Real Name: <em>Octocat</em>
-  Email address: <em>octocat@github.com</em>
-  Comment: <em>GitHub key</em>
+  Real Name: <em>MgsD</em>
+  Email address: <em>mgsdedy37@gmail.com</em>
+  Comment: <em>GitHub key</em>3DD1C34371567BD2
   Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit?
   ```
 7. Enter `O` to save your selections.
